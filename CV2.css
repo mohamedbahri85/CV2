@@ -2,11 +2,12 @@
     margin-left:150px ;
       background-color:antiquewhite;
   }
-  .infophoto {
+.infophoto {
     height:250px;
     background-color:antiquewhite;
 }
 .info {
+   
     float:left;
     color: blue;
     background-color:antiquewhite;
@@ -15,11 +16,13 @@
     float:right;
     background-color:antiquewhite;
 }
-.section {
+.texte1:hover {
+    color: #00AA00;
+
     margin-bottom:70px ;
      background-color:antiquewhite;
  }
- .secgauche {
+.secgauche {
     float:left ;
       background-color:antiquewhite;
   }
