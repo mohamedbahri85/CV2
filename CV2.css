@@ -1,6 +1,6 @@
 .secdroite {
     margin-left:150px ;
-      background-color:antiquewhite;
+    background-color:antiquewhite;
   }
 .infophoto {
     height:250px;
@@ -9,8 +9,9 @@
 .info {
    
     float:left;
-    color: blue;
-    background-color:antiquewhite;
+    color:red;
+    background-image: url(./img/sat.jpg);
+    background-size:100% ;
 }  
 .photo {
     float:right;
@@ -20,9 +21,9 @@
     color: #00AA00;
 
     margin-bottom:70px ;
-     background-color:antiquewhite;
+    background-color:antiquewhite;
  }
 .secgauche {
     float:left ;
-      background-color:antiquewhite;
+    background-color:antiquewhite;
   }
