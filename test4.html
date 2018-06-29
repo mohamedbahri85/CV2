@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
-       
-        <style>
-            body{
-                font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-                font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-            }
 
-    
+<body>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+        }
+
+
         .l4 {
             list-style-type: none;
             margin: 0;
@@ -26,11 +28,11 @@
             overflow: hidden;
             background-color: #333;
         }
-        
+
         .l5 {
             float: right;
         }
-        
+
         .l5 a {
             display: block;
             color: white;
@@ -38,81 +40,108 @@
             padding: 14px 16px;
             text-decoration: none;
         }
-        
+
         .l5 a:hover:not(.active) {
             background-color: #111;
         }
-        
+
         .active {
             background-color: #333;
         }
+
         .header {
-    background-color: blue;
-    padding: 90px;
-    text-align: center;
-    color:  white
-}
+            background-color: blue;
+            padding: 90px;
+            text-align: center;
+            color: white
+        }
 
-section {
-  /* position is static by default */
-  margin-left: 400px;
-  margin-top: 100px;
-}
-.t1 {
-    font-size: 1.45rem;
-    font-weight:300;
-}
+        section {
+            /* position is static by default */
+            margin-left: 400px;
+            margin-top: 100px;
+        }
 
-p {
-    margin-top: 0;
-    margin : 0.1rem;
-}
-.t5 {
-    font-size: 1.25rem;
-    font-weight: 200;
-}
+        .t1 {
+            font-size: 1.45rem;
+            font-weight: 300;
+        }
 
-        </style>
-        </head>
-        <body>
-               
-                      
-                      <div class="topnav">
-                            <ul class="l4">
-                                    <li class="l5"><a href="#home">Contact</a></li>
-                                    <li class="l5"><a href="#news">Service</a></li>
-                                    <li  class="l5"><a href="#contact">About</a></li>
-                                    <li class="l5"style="float:left"><a class="active" href="#about">my website</a></li>
-                                  </ul>
-                                  <div class="header">
+        p {
+            margin-top: 0;
+            margin: 0.1rem;
+        }
 
-                                        <h1 >Welcome to Scrolling Nav</h1>
-                                        <p class="t5" >A landing page template freshly redesigned for my website</p>
-                                      </div>
-                                      <section>
-                                            
-                                             
-                                                  <h2>About this page</h2>
-                                                  <p  class="t1">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
-                                                  <p class="t2">
-                                                        <ul class="l1" >
-                                                                <li class="l2">Clickable nav links that smooth scroll to page sections</li>
-                                                             <li class="l2">Responsive behavior when clicking nav links perfect for a one page website </li>
-                                                             <li class="l2">Bootstrap's scrollspy feature which highlights which section of the page you 're on the nav bar</li>
-                                                             <li class="l2">Bootstrap's scrollspy feature which highlights which section of the page you 're on the nav bar</li>
-                                                            </ul>
-                                                    
-                                                       </p>
-                                                      
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </section>
-                       
-                      </div>
-        
-        
-      
-    
-</body>
+        .t5 {
+            font-size: 1.25rem;
+            font-weight: 200;
+        }
+
+        /* .topnav {
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            padding: .5rem 1rem;
+        } */
+        body{
+            margin: 0px;
+        }
+    </style>
+    </head>
+
+    <body>
+
+
+        <div class="topnav">
+            <ul class="l4">
+                <li class="l5">
+                    <a href="#home">Contact</a>
+                </li>
+                <li class="l5">
+                    <a href="#news">Service</a>
+                </li>
+                <li class="l5">
+                    <a href="#contact">About</a>
+                </li>
+                <li class="l5" style="float:left">
+                    <a class="active" href="#about">my website</a>
+                </li>
+            </ul>
+            <div class="header">
+
+                <h1>Welcome to Scrolling Nav</h1>
+                <p class="t5">A landing page template freshly redesigned for my website</p>
+            </div>
+            <section>
+
+
+                <h2>About this page</h2>
+                <p class="t1">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it
+                    as a boilerplate or starting point for you own landing page designs! This template features:</p>
+                <p class="t2">
+                    <ul class="l1">
+                        <li class="l2">Clickable nav links that smooth scroll to page sections</li>
+                        <li class="l2">Responsive behavior when clicking nav links perfect for a one page website </li>
+                        <li class="l2">Bootstrap's scrollspy feature which highlights which section of the page you 're on the nav bar</li>
+                        <li class="l2">Bootstrap's scrollspy feature which highlights which section of the page you 're on the nav bar</li>
+                    </ul>
+
+                </p>
+
+        </div>
+        </div>
+        </div>
+        </section>
+
+        </div>
+
+
+
+
+    </body>
+
 </html>
